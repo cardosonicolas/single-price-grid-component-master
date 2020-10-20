@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --brightyellow: hsl(71, 73%, 54%);
+    --lightgray: hsl(204, 43%, 93%);
+    --grayishblue: hsl(218, 22%, 67%);
+}
+html {
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+*,
+:after,
+:before {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body {
+    background-color: var(--white-85);
+    letter-spacing: 0.03em;
+    overflow-x: hidden;
+}
+
+.container {
+}
+
+.card {
+    margin: 5em auto;
+    width: 700px;
+    height: 400px;
+    background-color: var(--lightgray);
+    border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+.card_head {
+    padding: 1em;
+}
+.card_body {
+    display: flex;
+}
+
+.card_body_suscription {
+    padding: 2em;
+    background-color: var(--cyan);
+    color: white;
+    width: 50%;
+}
+
+.card_body_whyUs {
+    padding: 2em;
+    background-color: var(--grayishblue);
+    color: white;
+    width: 50%;
+}
+
+.attribution {
+    margin: 5em;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

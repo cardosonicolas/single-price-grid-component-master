@@ -150,6 +150,10 @@ footer {
         height: 50px;
     }
 
+    .main-card__center button:hover {
+        background-color: hsl(71, 73%, 65%);
+    }
+
     ul {
         font-size: 13px;
     }
